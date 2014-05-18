@@ -1,0 +1,45 @@
+/*body {
+    box-shadow:none;
+}
+
+.site-wrapper {
+    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}*/
+
+ul.sentence-list {
+    list-style-type: none;
+}
+
+li.sentence {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.sentence-list {
+    /*background-color:#353535;*/
+}
+
+.sentence.panel {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    background-color: #666;
+}
+
+.japanese.sentence {
+    padding-top:10px;
+}
+
+.english.sentence {
+    margin-bottom:0px;
+}
+
+.sentence.panel > .well-sm {
+    margin-bottom: 0px;
+    background-color:#555;
+    border: 1px solid #474747;
+}
+
+.section-title {
+    margin-bottom:20px;
+}

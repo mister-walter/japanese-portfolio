@@ -140,7 +140,39 @@ ul.dropdown-menu li a {
  * Dropdown menu
  */
 
+#lesson-dropdown {
+    background-color: transparent;
+}
 
+/*
+ * Pagination navbar
+ */
+.pagination-nav > li {
+  display: inline-block;
+}
+.pagination-nav > li + li {
+  margin-left: 20px;
+}
+.pagination-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.pagination-nav > li > a:hover,
+.pagination-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.pagination-nav > .active > a,
+.pagination-nav > .active > a:hover,
+.pagination-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
 
 /*
  * Affix and center
@@ -168,10 +200,58 @@ ul.dropdown-menu li a {
   }
 }
 
+/*
 @media (min-width: 992px) {
   .masthead,
   .mastfoot,
   .cover-container {
     width: 700px;
   }
+}*/
+
+.cover-container {
+    width:80%;
 }
+
+.masthead,.mastfoot {
+    width:60%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.masthead {
+    background-color:#333;
+    /*margin-bottom:10px;*/
+}
+
+.masthead:after {
+    display: block;
+    box-shadow: 0px 0px 2px 1px #252525;
+}
+
+.inner.cover > .page-header {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+/*
+.inner.cover > .country.container {
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+}*/
+
+.site-wrapper-inner {
+    vertical-align:super;
+    padding-top: 60px;
+}
+
+body {
+    box-shadow:none;
+}
+
+.site-wrapper {
+    /*box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
+}
+
