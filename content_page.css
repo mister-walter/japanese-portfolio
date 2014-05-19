@@ -221,6 +221,7 @@ ul.dropdown-menu li a {
 
 .masthead {
     background-color:#333;
+    z-index: 2000;
     /*margin-bottom:10px;*/
 }
 

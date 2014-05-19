@@ -1,0 +1,1 @@
+$('.hour-tooltip').tooltip();

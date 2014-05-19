@@ -144,6 +144,14 @@ ul.dropdown-menu li a {
     background-color: transparent;
 }
 
+a.btn {
+    margin-top:45px;
+}
+
+.tooltip {
+    font-size:14px;
+}
+
 /*
  * Affix and center
  */

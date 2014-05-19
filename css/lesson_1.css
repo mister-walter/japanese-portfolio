@@ -2,3 +2,23 @@
     vertical-align:super;
     padding-top: 60px;
 }
+
+/*
+div.image-container {
+    width:40%;
+    display: inline-block;
+}
+
+.list-group-item > img {
+    width: 40%;
+}*/
+
+.panel.panel-default {
+    background-color: #555;
+}
+
+.list-group-item {
+    background-color: #555;
+    /*width:1138px;*/
+    width:100%;
+}
