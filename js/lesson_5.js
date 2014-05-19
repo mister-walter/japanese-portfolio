@@ -1,5 +1,6 @@
 $('.item-popover').popover();
 
+/*
 $('.item-popover').on('shown.bs.popover', function(){
     //console.log(this);
     //var popover = $(this).popover();
@@ -16,7 +17,7 @@ $('.item-popover').on('shown.bs.popover', function(){
     console.log(popover.attr('style'));
     console.log(popover.height());
     //popover.hide();
-});
+});*/
 
 //$('.menu-item-price').on('hover', function(){
 $('.menu-item-price').hover(function(){
